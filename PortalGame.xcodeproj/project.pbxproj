@@ -15,6 +15,7 @@
 		943CDBC522FF24FC0066944A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943CDBC322FF24FC0066944A /* LaunchScreen.storyboard */; };
 		943CDBD022FF24FD0066944A /* PortalGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943CDBCF22FF24FD0066944A /* PortalGameTests.swift */; };
 		943CDBDB22FF24FD0066944A /* PortalGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943CDBDA22FF24FD0066944A /* PortalGameUITests.swift */; };
+		943CDBE922FF25250066944A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943CDBE822FF25250066944A /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		943CDBD622FF24FD0066944A /* PortalGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortalGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		943CDBDA22FF24FD0066944A /* PortalGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalGameUITests.swift; sourceTree = "<group>"; };
 		943CDBDC22FF24FD0066944A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943CDBE822FF25250066944A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		943CDBAC22FF24FB0066944A = {
 			isa = PBXGroup;
 			children = (
+				943CDBE822FF25250066944A /* Extensions.swift */,
 				943CDBB722FF24FB0066944A /* PortalGame */,
 				943CDBCE22FF24FD0066944A /* PortalGameTests */,
 				943CDBD922FF24FD0066944A /* PortalGameUITests */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				943CDBBD22FF24FB0066944A /* ViewController.swift in Sources */,
+				943CDBE922FF25250066944A /* Extensions.swift in Sources */,
 				943CDBB922FF24FB0066944A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

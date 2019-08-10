@@ -11,10 +11,10 @@ import SceneKit
 import ARKit
 
 var width : CGFloat = 0.02
-var height : CGFloat = 1
-var length : CGFloat = 1
+var height : CGFloat = 3
+var length : CGFloat = 3
 
-var doorLength : CGFloat = 0.3
+var doorLength : CGFloat = 0.8
 
 func createBox(isDoor : Bool) -> SCNNode {
     let node = SCNNode()

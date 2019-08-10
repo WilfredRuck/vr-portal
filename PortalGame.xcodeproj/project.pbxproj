@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		943CDBB922FF24FB0066944A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943CDBB822FF24FB0066944A /* AppDelegate.swift */; };
+		943CDBBB22FF24FB0066944A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 943CDBBA22FF24FB0066944A /* art.scnassets */; };
+		943CDBBD22FF24FB0066944A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943CDBBC22FF24FB0066944A /* ViewController.swift */; };
+		943CDBC022FF24FB0066944A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943CDBBE22FF24FB0066944A /* Main.storyboard */; };
+		943CDBC222FF24FC0066944A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943CDBC122FF24FC0066944A /* Assets.xcassets */; };
+		943CDBC522FF24FC0066944A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943CDBC322FF24FC0066944A /* LaunchScreen.storyboard */; };
+		943CDBD022FF24FD0066944A /* PortalGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943CDBCF22FF24FD0066944A /* PortalGameTests.swift */; };
+		943CDBDB22FF24FD0066944A /* PortalGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943CDBDA22FF24FD0066944A /* PortalGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		943CDBCC22FF24FC0066944A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943CDBAD22FF24FB0066944A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943CDBB422FF24FB0066944A;
+			remoteInfo = PortalGame;
+		};
+		943CDBD722FF24FD0066944A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943CDBAD22FF24FB0066944A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943CDBB422FF24FB0066944A;
+			remoteInfo = PortalGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		943CDBB522FF24FB0066944A /* PortalGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortalGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		943CDBB822FF24FB0066944A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		943CDBBA22FF24FB0066944A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		943CDBBC22FF24FB0066944A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		943CDBBF22FF24FB0066944A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		943CDBC122FF24FC0066944A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		943CDBC422FF24FC0066944A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		943CDBC622FF24FC0066944A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943CDBCB22FF24FC0066944A /* PortalGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortalGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		943CDBCF22FF24FD0066944A /* PortalGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalGameTests.swift; sourceTree = "<group>"; };
+		943CDBD122FF24FD0066944A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943CDBD622FF24FD0066944A /* PortalGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortalGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		943CDBDA22FF24FD0066944A /* PortalGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalGameUITests.swift; sourceTree = "<group>"; };
+		943CDBDC22FF24FD0066944A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		943CDBB222FF24FB0066944A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943CDBC822FF24FC0066944A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943CDBD322FF24FD0066944A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		943CDBAC22FF24FB0066944A = {
+			isa = PBXGroup;
+			children = (
+				943CDBB722FF24FB0066944A /* PortalGame */,
+				943CDBCE22FF24FD0066944A /* PortalGameTests */,
+				943CDBD922FF24FD0066944A /* PortalGameUITests */,
+				943CDBB622FF24FB0066944A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		943CDBB622FF24FB0066944A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				943CDBB522FF24FB0066944A /* PortalGame.app */,
+				943CDBCB22FF24FC0066944A /* PortalGameTests.xctest */,
+				943CDBD622FF24FD0066944A /* PortalGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		943CDBB722FF24FB0066944A /* PortalGame */ = {
+			isa = PBXGroup;
+			children = (
+				943CDBB822FF24FB0066944A /* AppDelegate.swift */,
+				943CDBBA22FF24FB0066944A /* art.scnassets */,
+				943CDBBC22FF24FB0066944A /* ViewController.swift */,
+				943CDBBE22FF24FB0066944A /* Main.storyboard */,
+				943CDBC122FF24FC0066944A /* Assets.xcassets */,
+				943CDBC322FF24FC0066944A /* LaunchScreen.storyboard */,
+				943CDBC622FF24FC0066944A /* Info.plist */,
+			);
+			path = PortalGame;
+			sourceTree = "<group>";
+		};
+		943CDBCE22FF24FD0066944A /* PortalGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				943CDBCF22FF24FD0066944A /* PortalGameTests.swift */,
+				943CDBD122FF24FD0066944A /* Info.plist */,
+			);
+			path = PortalGameTests;
+			sourceTree = "<group>";
+		};
+		943CDBD922FF24FD0066944A /* PortalGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				943CDBDA22FF24FD0066944A /* PortalGameUITests.swift */,
+				943CDBDC22FF24FD0066944A /* Info.plist */,
+			);
+			path = PortalGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		943CDBB422FF24FB0066944A /* PortalGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943CDBDF22FF24FD0066944A /* Build configuration list for PBXNativeTarget "PortalGame" */;
+			buildPhases = (
+				943CDBB122FF24FB0066944A /* Sources */,
+				943CDBB222FF24FB0066944A /* Frameworks */,
+				943CDBB322FF24FB0066944A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortalGame;
+			productName = PortalGame;
+			productReference = 943CDBB522FF24FB0066944A /* PortalGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		943CDBCA22FF24FC0066944A /* PortalGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943CDBE222FF24FD0066944A /* Build configuration list for PBXNativeTarget "PortalGameTests" */;
+			buildPhases = (
+				943CDBC722FF24FC0066944A /* Sources */,
+				943CDBC822FF24FC0066944A /* Frameworks */,
+				943CDBC922FF24FC0066944A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943CDBCD22FF24FC0066944A /* PBXTargetDependency */,
+			);
+			name = PortalGameTests;
+			productName = PortalGameTests;
+			productReference = 943CDBCB22FF24FC0066944A /* PortalGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		943CDBD522FF24FD0066944A /* PortalGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943CDBE522FF24FD0066944A /* Build configuration list for PBXNativeTarget "PortalGameUITests" */;
+			buildPhases = (
+				943CDBD222FF24FD0066944A /* Sources */,
+				943CDBD322FF24FD0066944A /* Frameworks */,
+				943CDBD422FF24FD0066944A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943CDBD822FF24FD0066944A /* PBXTargetDependency */,
+			);
+			name = PortalGameUITests;
+			productName = PortalGameUITests;
+			productReference = 943CDBD622FF24FD0066944A /* PortalGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		943CDBAD22FF24FB0066944A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Wilfred  Ruck";
+				TargetAttributes = {
+					943CDBB422FF24FB0066944A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					943CDBCA22FF24FC0066944A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 943CDBB422FF24FB0066944A;
+					};
+					943CDBD522FF24FD0066944A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 943CDBB422FF24FB0066944A;
+					};
+				};
+			};
+			buildConfigurationList = 943CDBB022FF24FB0066944A /* Build configuration list for PBXProject "PortalGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 943CDBAC22FF24FB0066944A;
+			productRefGroup = 943CDBB622FF24FB0066944A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				943CDBB422FF24FB0066944A /* PortalGame */,
+				943CDBCA22FF24FC0066944A /* PortalGameTests */,
+				943CDBD522FF24FD0066944A /* PortalGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		943CDBB322FF24FB0066944A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943CDBBB22FF24FB0066944A /* art.scnassets in Resources */,
+				943CDBC522FF24FC0066944A /* LaunchScreen.storyboard in Resources */,
+				943CDBC222FF24FC0066944A /* Assets.xcassets in Resources */,
+				943CDBC022FF24FB0066944A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943CDBC922FF24FC0066944A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943CDBD422FF24FD0066944A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		943CDBB122FF24FB0066944A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943CDBBD22FF24FB0066944A /* ViewController.swift in Sources */,
+				943CDBB922FF24FB0066944A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943CDBC722FF24FC0066944A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943CDBD022FF24FD0066944A /* PortalGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943CDBD222FF24FD0066944A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943CDBDB22FF24FD0066944A /* PortalGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		943CDBCD22FF24FC0066944A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943CDBB422FF24FB0066944A /* PortalGame */;
+			targetProxy = 943CDBCC22FF24FC0066944A /* PBXContainerItemProxy */;
+		};
+		943CDBD822FF24FD0066944A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943CDBB422FF24FB0066944A /* PortalGame */;
+			targetProxy = 943CDBD722FF24FD0066944A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		943CDBBE22FF24FB0066944A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943CDBBF22FF24FB0066944A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		943CDBC322FF24FC0066944A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943CDBC422FF24FC0066944A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		943CDBDD22FF24FD0066944A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		943CDBDE22FF24FD0066944A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		943CDBE022FF24FD0066944A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PortalGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Techen.PortalGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		943CDBE122FF24FD0066944A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PortalGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Techen.PortalGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		943CDBE322FF24FD0066944A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PortalGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Techen.PortalGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PortalGame.app/PortalGame";
+			};
+			name = Debug;
+		};
+		943CDBE422FF24FD0066944A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PortalGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Techen.PortalGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PortalGame.app/PortalGame";
+			};
+			name = Release;
+		};
+		943CDBE622FF24FD0066944A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PortalGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Techen.PortalGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PortalGame;
+			};
+			name = Debug;
+		};
+		943CDBE722FF24FD0066944A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PortalGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Techen.PortalGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PortalGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		943CDBB022FF24FB0066944A /* Build configuration list for PBXProject "PortalGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943CDBDD22FF24FD0066944A /* Debug */,
+				943CDBDE22FF24FD0066944A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943CDBDF22FF24FD0066944A /* Build configuration list for PBXNativeTarget "PortalGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943CDBE022FF24FD0066944A /* Debug */,
+				943CDBE122FF24FD0066944A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943CDBE222FF24FD0066944A /* Build configuration list for PBXNativeTarget "PortalGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943CDBE322FF24FD0066944A /* Debug */,
+				943CDBE422FF24FD0066944A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943CDBE522FF24FD0066944A /* Build configuration list for PBXNativeTarget "PortalGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943CDBE622FF24FD0066944A /* Debug */,
+				943CDBE722FF24FD0066944A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 943CDBAD22FF24FB0066944A /* Project object */;
+}
